@@ -1,6 +1,6 @@
 import React from 'react';
-
-import { Footer, Possibility, Features, Header, About } from './containers';
+import './App.css'
+import { Footer, Possibility, SignUp, Intro} from './containers';
 import { CTA, Brand, Navbar } from './components';
 
 const App = () => {
@@ -8,12 +8,10 @@ const App = () => {
         <div className="App">
             <div className="gradient_bg">
                 <Navbar />
-                <Header />
             </div>
-            <Brand />
-            <About />
-            <Features />
+            <SignUp />
             <Possibility />
+            <Intro />
             <CTA />
             <Footer />
         </div>
