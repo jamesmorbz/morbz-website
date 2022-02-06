@@ -17,17 +17,17 @@ const BulletPointData = [
   },
   {
     title: 'Backed by Experts',
-    text: 'Backed by Experts who know what they\'re doing',
+    text: 'We\'ve gathered information and knowledge from numerous coaches and sources massing to over 100 years of total chess experience. We\'ve created concise plans and put in the hard yards so you don\'t have to!',
   },
 ];
 
 const Intro = () => (
-  <div className="home__features section__padding" id="features">
-    <div className="home__features-heading">
-      <h1 className="gradient__text">Cut the Complexity, <br/> Learn Your Way.</h1>
+  <div className="features section-padding" id="features">
+    <div className="features-heading">
+      <h1 className="gradient-text">Cut the Complexity. <br /> Learn Your Way.</h1>
       <p>Improving your chess has never been so simple</p>
     </div>
-    <div className="home__features-container">
+    <div className="features-container">
       {BulletPointData.map((item, index) => (
         <Feature title={item.title} text={item.text} key={item.title + index} />
       ))}

@@ -1,9 +1,9 @@
-.home__header {
+.header {
     display: flex;
     flex-direction: row;
 }
 
-.home__header-content {
+.header-content {
     flex: 1;
     display: flex;
     justify-content: center;
@@ -13,7 +13,7 @@
     margin-right: 5rem;
 }
 
-.home__header-content h1 {
+.header-content h1 {
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 62px;
@@ -21,7 +21,7 @@
     letter-spacing: -0.04em;
 }
 
-.home__header-content p {
+.header-content p {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 20px;
@@ -31,7 +31,7 @@
     margin-top: 2rem;
 }
 
-.home__header-content__input {
+.header-content-input {
     width: 100%;
     margin: 2rem 0 1rem;
 
@@ -39,7 +39,7 @@
     flex-direction: row;
 }
 
-.home__header-content__input input {
+.header-content-input input {
     flex: 2;
     width: 100%;
     min-height: 50px;
@@ -57,7 +57,7 @@
     border-bottom-left-radius: 5px;
 }
 
-.home__header-content__input button {
+.header-content-input button {
     flex: 0.6;
     width: 100%;
     min-height: 50px;
@@ -76,7 +76,7 @@
     border-bottom-right-radius: 5px;
 }
 
-.home__header-content__people {
+.header-content-people {
     width: 100%;
     display: flex;
     justify-content: flex-start;
@@ -86,12 +86,12 @@
     margin-top: 2rem;
 }
 
-.home__header-content__people img {
+.header-content-people img {
     width: 181.79px;
     height: 38px;
 }
 
-.home__header-content__people p {
+.header-content-people p {
     margin: 0 0 0 1rem;
     font-family: var(--font-family);
     font-weight: 500;
@@ -101,67 +101,67 @@
     text-align: center;
 }
 
-.home__header-image {
+.header-image {
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.home__header-image img {
+.header-image img {
     width: 100%;
     height: 100%;
 }
 
 @media screen and (max-width: 1050px) {
-    .home__header {
+    .header {
         flex-direction: column;
     }
 
-    .home__header-content {
+    .header-content {
         margin: 0 0 3rem;
     }
 }
 
 @media screen and (max-width: 650px) {
-    .home__header-content h1 {
+    .header-content h1 {
         font-size: 48px;
         line-height: 60px;
     }
 
-    .home__header-content p {
+    .header-content p {
         font-size: 16px;
         line-height: 24px;
     }
-    
-    .home__header-content__people {
+
+    .header-content-people {
         flex-direction: column;
     }
 
-    .home__header-content__people p {
+    .header-content-people p {
         margin: 0;
     }
 
-    .home__header-content__input input,
-    .home__header-content__input button {
+    .header-content-input input,
+    .header-content-input button {
         font-size: 16px;
         line-height: 24px;
     }
 }
 
 @media screen and (max-width: 490px) {
-    .home__header-content h1 {
+    .header-content h1 {
         font-size: 36px;
         line-height: 48px;
     }
 
-    .home__header-content p {
+    .header-content p {
         font-size: 14px;
         line-height: 24px;
     }
 
-    .home__header-content__input input,
-    .home__header-content__input button {
+    .header-content-input input,
+    .header-content-input button {
         font-size: 12px;
         line-height: 16px;
     }

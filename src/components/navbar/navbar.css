@@ -1,4 +1,4 @@
-.home__navbar {
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -6,36 +6,36 @@
     padding: 2rem 6rem;
 }
 
-.home__navbar-links {
+.navbar-links {
     flex: 1;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
-.home__navbar-links_logo {
+.navbar-links_logo {
     margin-right: 2rem;
 }
 
-.home__navbar-links_logo img {
+.navbar-links_logo img {
     width: 200px;
     height: 200px;
 }
 
-.home__navbar-links_container {
+.navbar-links_container {
     display: flex;
     flex-direction: row;
 }
 
-.home__navbar-sign {
+.navbar-sign {
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
-.home__navbar-links_container p,
-.home__navbar-sign p,
-.home__navbar-menu_container p {
+.navbar-links_container p,
+.navbar-sign p,
+.navbar-menu_container p {
     color: #fff;
     font-family: var(--font-family);
     font-weight: 500;
@@ -47,8 +47,8 @@
     cursor: pointer;
 }
 
-.home__navbar-sign button,
-.home__navbar-menu_container button {
+.navbar-sign button,
+.navbar-menu_container button {
     padding: 0.5rem 1rem;
     color: #fff;
     background: #FF4820;
@@ -62,23 +62,23 @@
     border-radius: 5px;
 }
 
-.home__navbar-menu {
+.navbar-menu {
     margin-left: 1rem;
 
     display: none;
     position: relative;
 }
 
-.home__navbar-menu svg {
+.navbar-menu svg {
     cursor: pointer;
 }
 
-.home__navbar-menu_container {
+.navbar-menu_container {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction: column;
-    
+
     text-align: end;
     background: var(--color-footer);
     padding: 2rem;
@@ -88,47 +88,47 @@
     margin-top: 1rem;
     min-width: 210px;
     border-radius: 5px;
-    box-shadow: 0px 0px 5px rgba(0,0, 0,0.2);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
 
-.home__navbar-menu_container p {
+.navbar-menu_container p {
     margin: 1rem 0;
 }
 
-.home__navbar-menu_container-links-sign {
+.navbar-menu_container-links-sign {
     display: none;
 }
 
 @media screen and (max-width: 1050px) {
-    .home__navbar-links_container {
+    .navbar-links_container {
         display: none;
     }
 
-    .home__navbar-menu {
+    .navbar-menu {
         display: flex;
     }
 }
 
 @media screen and (max-width: 700px) {
-    .home__navbar {
+    .navbar {
         padding: 2rem 4rem;
     }
 }
 
 @media screen and (max-width: 550px) {
-    .home__navbar {
+    .navbar {
         padding: 2rem;
     }
 
-    .home__navbar-sign {
+    .navbar-sign {
         display: none;
     }
 
-    .home__navbar-menu_container {
+    .navbar-menu_container {
         top: 20px;
     }
 
-    .home__navbar-menu_container-links-sign {
+    .navbar-menu_container-links-sign {
         display: block;
     }
 }

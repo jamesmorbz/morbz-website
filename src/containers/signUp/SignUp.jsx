@@ -4,23 +4,23 @@ import logo from '../../assets/logo.png';
 import './signUp.css';
 
 const SignUp = () => (
-  <div className="home__header section__padding" id="home">
-    <div className="home__header-content">
-      <h1 className="gradient__text">Chess Mastery Is Just a Few Clicks Away.</h1>
+  <div className="header section-padding" id="home">
+    <div className="header-content">
+      <h1 className="gradient-text">Chess Mastery Is Just a Few Clicks Away.</h1>
       <p>Sign up to get Started</p>
 
-      <div className="home__header-content__input">
+      <div className="header-content-input">
         <input type="email" placeholder="Your Email Address" />
         <button type="button">Being your Journey</button>
       </div>
 
-      <div className="home__header-content__people">
+      <div className="header-content-people">
         <img src={people} />
         <p>1,600+ people have signed up in the last 24 hours</p>
       </div>
     </div>
 
-    <div className="home__header-image">
+    <div className="header-image">
       <img src={logo} />
     </div>
   </div>
