@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
+import { Link } from 'react-router-dom';
 import logo from '../../assets/logo.svg';
 import './navbar.css';
 
@@ -13,13 +14,15 @@ const Navbar = () => {
           <img alt="logo" src={logo} />
         </div>
         <div className="navbar-links_container">
-          <p><a href="home">Home</a></p>
+          <p><Link to="/">Home</Link></p>
+          <p><Link to="about">About</Link></p>
+          {/* <p><a href="">Home</a></p>
           <p><a href="about">About</a></p>
           <p><a href="puzzles">Puzzles</a></p>
           <p><a href="studies">Studies</a></p>
           <p><a href="learning">Learning</a></p>
           <p><a href="resources">Resources</a></p>
-          <p><a href="upcoming">Upcoming</a></p>
+          <p><a href="upcoming">Upcoming</a></p> */}
         </div>
       </div>
       <div className="navbar-sign">
