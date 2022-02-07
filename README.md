@@ -19,3 +19,8 @@
 -Signup Login Pages
 
 
+## Completed
+
+-Make homepage logo svg
+
+
