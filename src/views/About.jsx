@@ -1,4 +1,4 @@
-import { Intro, Possibility } from '../containers';
+import { Intro } from '../containers';
 import { CTA } from '../components';
 
 const About = () => (

@@ -1,5 +1,5 @@
-import { Possibility, SignUp } from '../containers';
-import { Brand } from '../components';
+import { SignUp } from '../containers';
+// import { Brand } from '../components';
 
 const About = () => (
     <div>

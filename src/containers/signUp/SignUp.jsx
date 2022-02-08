@@ -21,7 +21,7 @@ const SignUp = () => (
     </div>
 
     <div className="header-image">
-      <img src={logo} />
+      <img alt="Hello" src={logo} />
     </div>
   </div>
 );
