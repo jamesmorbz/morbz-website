@@ -1,5 +1,5 @@
-import { Intro } from '../containers';
-import { CTA } from '../components';
+import { Intro } from '../../containers';
+import { CTA } from '../../components';
 
 const About = () => (
     <div>
