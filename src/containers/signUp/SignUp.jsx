@@ -15,13 +15,13 @@ const SignUp = () => (
       </div>
 
       <div className="header-content-people">
-        <img src={people} />
+        <img alt="People" src={people} />
         <p>1,600+ people have signed up in the last 24 hours</p>
       </div>
     </div>
 
     <div className="header-image">
-      <img alt="Hello" src={logo} />
+      <img alt="Logo" src={logo} />
     </div>
   </div>
 );
