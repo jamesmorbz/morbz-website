@@ -4,6 +4,7 @@ import { Footer } from './containers';
 import { Navbar } from './components';
 import { About, Home } from './views';
 import { Routes, Route } from 'react-router-dom';
+import Matrix from '../src/containers/matrix/index';
 
 export default function App() {
     return (
@@ -15,7 +16,7 @@ export default function App() {
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/about" element={<About />} />
-                    <Route path="*" element={<p>SHHH</p>}/>
+                    <Route path="*" element={<Matrix/>}/>
                 </Routes>
                 <Footer />
             </div>
