@@ -15,14 +15,13 @@ const Navbar = () => {
         </div>
         <div className="navbar-links_container">
           <p><Link to="/">Home</Link></p>
-          <p><Link to="about">About</Link></p>
-          {/* <p><a href="">Home</a></p>
-          <p><a href="about">About</a></p>
-          <p><a href="puzzles">Puzzles</a></p>
-          <p><a href="studies">Studies</a></p>
-          <p><a href="learning">Learning</a></p>
-          <p><a href="resources">Resources</a></p>
-          <p><a href="upcoming">Upcoming</a></p> */}
+          <p><Link to="/about">About</Link></p>
+          <p><Link to="/puzzles">Puzzles</Link></p>
+          <p><Link to="/studies">Studies</Link></p>
+          <p><Link to="/learning">Learning</Link></p>
+          <p><Link to="/resources">Resources</Link></p>
+          <p><Link to="/upcoming">Upcoming</Link></p>
+          <p><Link to="/portfolio">Other Projects</Link></p>
         </div>
       </div>
       <div className="navbar-sign">
@@ -36,13 +35,14 @@ const Navbar = () => {
         {toggleMenu && (
           <div className="navbar-menu_container scale-up-center">
             <div className="navbar-menu_container-links">
-              <p><a href="#home">Home</a></p>
-              <p><a href="#about">About</a></p>
-              <p><a href="#puzzles">Puzzles</a></p>
-              <p><a href="#studies">Studies</a></p>
-              <p><a href="#learning">Learning</a></p>
-              <p><a href="#resources">Resources</a></p>
-              <p><a href="#upcoming">Upcoming</a></p>
+              <p><Link to="/">Home</Link></p>
+              <p><Link to="/about">About</Link></p>
+              <p><Link to="/puzzles">Puzzles</Link></p>
+              <p><Link to="/studies">Studies</Link></p>
+              <p><Link to="/learning">Learning</Link></p>
+              <p><Link to="/resources">Resources</Link></p>
+              <p><Link to="/upcoming">Upcoming</Link></p>
+              <p><Link to="/portfolio">Other Projects</Link></p>
             </div>
             <div className="navbar-menu_container-links-sign">
               <p>Sign in</p>

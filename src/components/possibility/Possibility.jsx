@@ -1,5 +1,4 @@
 import React from 'react';
-// import Puzzle from '../../assets/examplePuzzle.png';
 import './possibility.css';
 
 const Possibility = () => (

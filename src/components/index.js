@@ -1,6 +1,7 @@
 export { default as Navbar } from './navbar/Navbar'
 export { default as Feature } from './feature/Feature'
 export { default as CTA } from './cta/CTA'
-export { default as footer_banner } from './footer_banner/Footer_banner'
-
-
+export { default as FooterBanner } from './footerBanner/FooterBanner'
+export { default as Footer } from './footer/Footer'
+export { default as Possibility } from './possibility/Possibility'
+export { default as MatrixBackground } from './matrix_background/Matrix_background'
