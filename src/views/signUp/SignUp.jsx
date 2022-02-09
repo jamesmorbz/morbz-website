@@ -4,46 +4,18 @@ import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
-import axios from 'axios';
+// import Typography from '@mui/material/Typography';
+// import axios from 'axios';
 
 function SignUp() {
   const [email, setEmail] = useState('');
   const [pass, setPass] = useState('');
-
-  function signupAction(data) {
+  
+  function signupAction() {
     console.log(email);
     console.log(pass);
-    
-    var data = JSON.stringify({
-      "collection": "UserCreds",
-      "database": "MorbzBackend",
-      "dataSource": "Cluster0",
-      "projection": {
-          "_id": 5748,
-          "username": {email},
-          "password": {pass}
-      }
-  });
-
-    var config = {
-      method: 'post',
-      url: 'https://data.mongodb-api.com/app/data-btmov/endpoint/data/beta/action/findOne',
-      headers: {
-          'Content-Type': 'application/json',
-          'api-key': 'Q5H2NJLe4Dpf9Wa0FnbLTC5vNjJX7wOqZbvMMu11iqMIHyGCuHja0HFkC0EX0WT4'
-      },
-      data : data
-  };
-  
-  axios(config)
-      .then(function (response) {
-          console.log(JSON.stringify(response.data));
-      })
-      .catch(function (error) {
-          console.log(error);
-      });
   }
+    
 
   function emailChangeAction(event) {
     setEmail(event.target.value);

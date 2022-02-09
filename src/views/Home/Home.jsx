@@ -3,9 +3,14 @@ import './home.css';
 import people from '../../assets/people.png';
 import logo from '../../assets/logo.svg';
 import { Link } from 'react-router-dom';
+import { Navbar, Footer } from '../../components';
 
 const About = () => (
+
     <div>
+        <div>
+            <Navbar />
+        </div>
         <div className="header section-padding" id="home">
             <div className="header-content">
                 <h1 className="gradient-text">Chess Mastery Is Just a Few Clicks Away.</h1>
@@ -25,6 +30,9 @@ const About = () => (
             <div className="header-image">
                 <img alt="Logo" src={logo} />
             </div>
+        </div>
+        <div>
+            <Footer />
         </div>
     </div>
 );

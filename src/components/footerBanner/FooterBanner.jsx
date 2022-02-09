@@ -1,5 +1,6 @@
-import './footer_banner.css'
-const Footer_banner = () => {
+import './footerBanner.css'
+
+const FooterBanner = () => {
     return (
         <>
             <div className="footer-heading">
@@ -13,4 +14,4 @@ const Footer_banner = () => {
     )
 }
 
-export default Footer_banner;
+export default FooterBanner;
