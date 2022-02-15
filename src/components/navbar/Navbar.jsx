@@ -25,7 +25,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className="navbar-sign">
-        <p>Sign in</p>
+        <button type="button"><Link to="/signin">Sign in</Link></button>
         <button type="button"><Link to="/signup">Sign up</Link></button>
       </div>
       <div className="navbar-menu">
@@ -45,8 +45,8 @@ const Navbar = () => {
               <p><Link to="/portfolio">Other Projects</Link></p>
             </div>
             <div className="navbar-menu_container-links-sign">
-              <p>Sign in</p>
-              <button type="button">Sign up</button>
+              <button type="button"><Link to="/signin">Sign in</Link></button>
+              <button type="button"><Link to="/signup">Sign up</Link></button>
             </div>
           </div>
         )}
