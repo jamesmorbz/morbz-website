@@ -29,6 +29,7 @@
 
 .navbar-sign {
     display: flex;
+    gap: 10px;
     justify-content: flex-end;
     align-items: center;
 }
@@ -129,6 +130,8 @@
     }
 
     .navbar-menu_container-links-sign {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
     }
 }
